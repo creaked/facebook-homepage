@@ -129,8 +129,7 @@ a:hover { text-decoration: underline; }
 }
 
 .contentr {
-	float: right;
-	position: fixed;
+	position: absolute;
 	margin-left: 600px;
 	height: 500px;
 	width: 500px;
@@ -152,9 +151,9 @@ a:hover { text-decoration: underline; }
 
 .disco {
 	padding-top: 10px;
-    color: #777;
-    font-size: 11px;
-    width: 316px;
+    	color: #777;
+    	font-size: 11px;
+    	width: 316px;
 }
 
 #signup input {
