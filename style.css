@@ -8,6 +8,8 @@ a:hover { text-decoration: underline; }
 
 #wrapper {
 	margin: -10px;
+	overflow: none;
+	min-width: 1200px;
 }
 
 .header {
@@ -179,7 +181,7 @@ a:hover { text-decoration: underline; }
 
 .footer {
 	padding-top: 10px;
-	width:150%;
+	width:100%;
 	bottom:0;
 	left:0;
 	font-size: 12px;
@@ -210,6 +212,7 @@ a:hover { text-decoration: underline; }
 #links ul {
 	display: inline-block;
 	list-style: none;
+
 }
 
 #fbc {
